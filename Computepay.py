@@ -13,7 +13,7 @@ extrapay = float(1.5)*defaultpay
 
 def computepay(h,r):
     if hrs <= float(40):
-        return (defaulthours*defaultpay)
+        return (defaultuhours*defaultpay)
     else:
         return (defaultuhours*defaultpay + extrahrs*extrapay)
 p = computepay(hrs,defaultpay)
